@@ -22,7 +22,7 @@ func main() {
 	fmt.Scanln(&wage)
 
 	gross = hours * wage
-	tax = int(math.Round(float64(gross) * 0.18))
+	tax = hours * wage * 18 / 100
 
 	fmt.Println()
 	fmt.Println("The gross income is:", gross)
