@@ -6,7 +6,6 @@
 package main
 
 import "fmt"
-import "math"
 
 func main() {
 	// This program calculates wage and tax
